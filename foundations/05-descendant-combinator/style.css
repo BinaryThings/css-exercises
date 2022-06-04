@@ -1,0 +1,26 @@
+.container .text {
+  background-color: yellow;
+  color: red;
+  font-size: 20px;
+  text-align: center;
+}
+
+/*  Alternate methods
+
+div p {
+  elements
+}
+
+or 
+
+div .text {
+  elements
+}
+
+or
+
+.container p {
+  elements
+}
+
+*/
