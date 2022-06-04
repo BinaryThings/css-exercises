@@ -3,7 +3,45 @@
   color: hsl(0, 100%, 50%);
 }
 
+.para {
+  font-size: 22px;
+}
+
 .small-para {
+  font-size: 14px;
+}
+
+.button {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+}
+
+.confirm {
+  background: green;
+  color: white;
+  font-weight: bold;
+} 
+
+.text {
+  color: green;
+  font-size: 22px;
+}
+
+.child {
+  color: red;
+  font-size: 14px;
+}
+
+
+/* ALTERNATE SOLUTION
+
+.para,
+.small-para {
+  color: hsl(0, 100%, 50%);
+}
+
+p.small-para {
   font-size: 14px;
 }
 
@@ -11,7 +49,7 @@
   font-size: 22px;
 }
 
-.confirm {
+button.confirm {
   background: green;
   color: white;
   font-weight: bold;
@@ -23,12 +61,14 @@
   font-size: 20px;
 }
 
-.child {
+div.child {
   color: red;
   font-size: 14px;
 }
 
-div.text {
+.text {
   color: green;
   font-size: 22px;
 }
+
+*/
